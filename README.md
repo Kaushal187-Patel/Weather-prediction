@@ -1,15 +1,21 @@
-# React + TypeScript + Vite
+# Weather Prediction App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based weather prediction application that allows users to search for current weather information by city name. Built with React, TypeScript, and Vite for fast development and optimal performance.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search weather by city name
+- Display current temperature, humidity, pressure, and wind speed
+- Show minimum and maximum temperatures
+- Error handling for invalid city names
+- Responsive Material-UI design
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open your browser and navigate to the local development URL
 
 ## Expanding the ESLint configuration
 
